@@ -34,6 +34,7 @@ readonly REQUIRED_PACKAGES=(
     git
     mkisofs
     libpng12-dev
+    libjpeg8
     libjpeg8-dev
     libpng12
     libjpeg8
@@ -45,12 +46,12 @@ readonly INSTALL_DIR="$CUR_DIR/dc"
 ###############################################################################
 
 # Installation steps
-do_update_and_upgrade=n
-do_install_packages_from_repos=n
-do_create_installation_dir=n
-do_checkout_kallistios=n
-do_download_toolchain=n
-do_build_toolchain=n
+do_update_and_upgrade=y
+do_install_packages_from_repos=y
+do_create_installation_dir=y
+do_checkout_kallistios=y
+do_download_toolchain=y
+do_build_toolchain=y
 do_configure_source_script=y
 do_build_kallistios=y
 do_build_kallistios_ports=y
