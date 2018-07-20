@@ -35,3 +35,7 @@ $ cd /opt/toolchains/dc/kos/examples
 $ make all
 ```
 
+## Further reading
+
+[Dreamcast development](http://dcemulation.org/?title=Development)
+
