@@ -37,5 +37,7 @@ $ make all
 
 ## Further reading
 
-[Dreamcast development](http://dcemulation.org/?title=Development)
+[DCEmulation Wiki: Dreamcast development](http://dcemulation.org/?title=Development)
+
+[Dreamcast Programming](http://mc.pp.se/dc/)
 
