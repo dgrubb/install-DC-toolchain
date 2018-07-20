@@ -18,3 +18,20 @@ N.B: requires that /opt/toolchains exists and is writable by current user.
 $ cp install-DC-toolchain.sh /opt/toolchains/ && cd /opt/toolchains/ && ./install-DC-toolchain.sh
 ```
 
+## Compilation
+
+After running the script to install the toolchain the KallistiOS examples can be built with:
+
+* Source the environment:
+
+```
+$ source /opt/toolchain/dc/environ.sh
+```
+
+* Launch top-level build script:
+
+```
+$ cd /opt/toolchains/dc/kos/examples
+$ make all
+```
+
