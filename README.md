@@ -6,6 +6,10 @@ laid out in this tutorial:
 
 [Beginning Game Development - A Dreamcast Dev Guide](http://www.racketboy.com/forum/viewtopic.php?t=50699)
 
+And further information from:
+
+[Compiling KOS on Linux](http://dcemulation.org/?title=Compiling_KOS_on_Linux)
+
 ## Usage
 
 N.B: requires that /opt/toolchains exists and is writable by current user.

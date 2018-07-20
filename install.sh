@@ -147,8 +147,8 @@ checkout_kallistios() {
 download_toolchain() {
     msg "Downloading and unpacking toolchain"
     cd $INSTALL_DIR/kos/utils/dc-chain
-    ./download.sh --no-deps
-    ./unpack.sh --no-deps
+    ./download.sh
+    ./unpack.sh
     cd $INSTALL_DIR
 }
 
@@ -157,7 +157,7 @@ download_toolchain() {
 build_toolchain() {
     msg "Building toolchain"
     cd $INSTALL_DIR/kos/utils/dc-chain
-    make
+    make erase=1
     cd $INSTALL_DIR
 }
 
