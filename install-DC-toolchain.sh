@@ -146,6 +146,7 @@ checkout_kallistios() {
 
 download_toolchain() {
     msg "Downloading and unpacking toolchain"
+    mv /opt/toolchains/dc/kos/utils/dc-chain/config.mk.stable.sample /opt/toolchains/dc/kos/utils/dc-chain/config.mk
     cd $INSTALL_DIR/kos/utils/dc-chain
     ./download.sh
     ./unpack.sh
